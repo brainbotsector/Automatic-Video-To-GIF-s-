@@ -23,11 +23,11 @@ Pip
 
 Clone the repository
 
--- git clone https://github.com/yourusername/videotogif.git
+- git clone https://github.com/yourusername/videotogif.git
 
--- cd videotogif
+- cd videotogif
 
--- Install FFmpeg
+- Install FFmpeg
 
 ## Windows:
 
@@ -35,23 +35,23 @@ Download the FFmpeg executable from the FFmpeg website and add it to your system
 
 ## macOS: Use Homebrew to install FFmpeg:
 
-brew install ffmpeg
+- brew install ffmpeg
 
 ## Linux: Use your package manager to install FFmpeg. For example, on Debian-based systems:
 
-sudo apt-get install ffmpeg
+- sudo apt-get install ffmpeg
 
 ## Install required Python packages
 
 Create and activate a virtual environment:
 
--- python -m venv venv
+- python -m venv venv
 
--- source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+- source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 ## Install the dependencies:
 
--- pip install -r requirements.txt
+- pip install -r requirements.txt
 
 # Usage
 
