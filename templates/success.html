@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>GIFs Created</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f8f9fa;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ced4da;
+      border-radius: 10px;
+      background: white;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      max-width: 1000px;
+    }
+    .gif-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .gif-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #ced4da;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .gif-item img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5">GIFs Created</h1>
+    <p>The following GIFs were created:</p>
+    <div class="gif-gallery">
+      {% for filename in filenames %}
+        {% if not filename.endswith('.wav') %}
+          <div class="gif-item">
+            <a href="{{ url_for('send_output', filename=filename) }}">
+              <img src="{{ url_for('send_output', filename=filename) }}" alt="{{ filename }}">
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <a href="/" class="btn btn-primary mt-3">Upload another video or YouTube URL</a>
+  </div>
+</body>
+</html>
