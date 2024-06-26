@@ -1,7 +1,7 @@
 # Automatic-Video-To-GIFs
 # Video to GIF Converter
 
-This project converts uploaded video files or YouTube video URLs into GIFs with subtitles based on transcribed audio. The application is built using Flask, FFmpeg, and Google's Speech Recognition API.
+This project converts uploaded video files or YouTube video URLs into GIFs with subtitles based on transcribed audio. The application is built using Flask,Python, FFmpeg, and Google's Speech Recognition API.
 
 # Features
 
