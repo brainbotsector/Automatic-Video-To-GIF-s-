@@ -29,7 +29,9 @@ Clone the repository
 
 -- Install FFmpeg
 
-## Windows: Download the FFmpeg executable from the FFmpeg website and add it to your system PATH.
+## Windows:
+
+Download the FFmpeg executable from the FFmpeg website and add it to your system PATH.
 
 ## macOS: Use Homebrew to install FFmpeg:
 
