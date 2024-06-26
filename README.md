@@ -71,7 +71,19 @@ Create and activate a virtual environment:
     
 4 - Submit the form
 
-5 - Click on the "Upload / Convert" button to start the conversion process. A loading spinner will indicate that the GIFs are being created.
+5 - Click on the "Upload / Convert" button to start the conversion process. 
+
+     A loading spinner will indicate that the GIFs are being created.
 
 6 - View the generated GIFs
+
     - After the conversion process is complete, you will be redirected to a page displaying the generated GIFs. You can click on the GIFs to download them.
+
+# Screenshots
+
+![2](https://github.com/brainbotsector/Automatic-Video-To-GIF-s-/assets/88769793/59ca49af-014a-4fe0-9402-d905b498b85d)
+
+![1](https://github.com/brainbotsector/Automatic-Video-To-GIF-s-/assets/88769793/02c0b016-3966-4d44-aaa8-ed827fe999e9)
+
+
+
