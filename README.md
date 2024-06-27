@@ -23,7 +23,7 @@ Pip
 
 Clone the repository
 
-- git clone https://github.com/yourusername/videotogif.git
+- git clone 
 
 - cd videotogif
 
