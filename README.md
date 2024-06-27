@@ -23,7 +23,7 @@ Pip
 
 Clone the repository
 
-- git clone 
+- git clone https://github.com/brainbotsector/Automatic-Video-To-GIF-s-.git
 
 - cd videotogif
 
